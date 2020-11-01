@@ -1,0 +1,17 @@
+Docker Installation
+docker --version
+docker start service
+docker images
+docker container ls
+docker contaioner ls -a
+docker container start <contiainer name/id>
+docker container stop <container name/id>
+docker run -d <container id> <image>
+docker run -it --name <name of container> <image name/id> /bin/bash
+docker exec -it <image name>
+docker attach <container name>
+docker container rm <container id>
+docker rm <image id>
+docker login
+docker push <imagename>
+docker pull <imagename>
